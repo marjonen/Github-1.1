@@ -1,0 +1,42 @@
+p {
+    color: blueviolet;
+    font-size: 70px;
+}
+
+h1 {
+    color: crimson;
+    font-size: 180px;
+}
+
+body{
+    background-color: rgb(234, 192, 229);
+}
+
+h2 {
+    font-size: 60px;
+    color:rgb(224, 25, 25)
+}
+
+
+button { /*tämä on niminappi*/
+    display: block; 
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    font-family: tahoma;
+    font-size: 30px;    
+
+}
+
+label { /*etu- ja sukunimi lokeroiden väli*/
+    margin-bottom: 30px;
+    width: 6em;
+    display: inline-block; 
+}
+
+label.long {
+    width: 6.5em;
+}
+
+input { /*kuina pitkät lokerot on mihin niumi kirjoitetaan*/
+    width: 16em;
+}
